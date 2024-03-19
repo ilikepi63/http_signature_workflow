@@ -1,0 +1,11 @@
+[package]
+name = "http_signature_workflow"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+rsa = "0.9.6"
+httpsig = { git = "https://github.com/junkurihara/httpsig-rs"}
+rand = "0.8.5"
